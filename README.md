@@ -8,7 +8,7 @@
 
 To implement a SimpleShell that waits for user input, executes commands provided in the user. The shell follows the scheudling policy implemented by the scheduler, a process of the shell itself. The scheduler schedules the jobs in the order of priorities and follows the round robin approach, allowing the processes to run for a certain period of time (quantum) and then switching the processes. The number of processes to be run at a time are specified by the user itself. The ```submit``` command should be used to submit an executable and can be used to specify the priority. (eg, ```submit ./fib 4```)
 
-The highest priority is 1 and the lowest is 4. By default the process enters the queue of highest priority The queue of highest priority having a process is executed first (again, in a round robin approach) and after every quanta the priority of the process decreases and it is shifted into the next priority queue.
+The highest priority is 1 and the lowest is 4. By default the process enters the queue of highest priority. The queue of highest priority having a process is executed first (again, in a round robin approach) and after every quanta the priority of the process decreases and it is shifted into the next priority queue.
 
 
 ## How to test
