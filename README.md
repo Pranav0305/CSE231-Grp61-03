@@ -20,7 +20,7 @@ The Makefile conatains the appropriate code required for the working of the simp
 
 It compiles the ```helloworld.c```, ```fib.c```  and  ```main.c``` files to produce the executables ```hello```, ```fib``` and ```main``` respectively.
 
-2. For running the scheudler + shell implementation, run the command "./main cpus timeslice" replacing cpus with an integer specifying the number of processes to be run at a time and replacing timeslice with quantum of round robin in miliseconds. For example. ``` ./main 2 5000 ``` with 2 cpus and 5000ms time quanta.
+2. For running the scheduler + shell implementation, run the command "./main cpus timeslice" replacing cpus with an integer specifying the number of processes to be run at a time and replacing timeslice with quantum of round robin in miliseconds. For example. ``` ./main 2 5000 ``` with 2 cpus and 5000ms time quanta.
 
 3. For exitting, you'll have to use "Ctrl-C" which then displays all the processes submitted to the shell + scheduler and also displays the wait time and execution time of all processes and the average.
 
