@@ -1,6 +1,6 @@
 ## CSE231 Operating Systems Monsoon Semester 
 ### Group-61
-### Assignment 2
+### Assignment 3
 
 ### MEMBERS: Naman Birla (2022310) and Pranav Bharadwaj(2022363)
 
